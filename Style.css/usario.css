@@ -29,9 +29,9 @@ body { /*arreglitos del body*/
     box-shadow: 0 5px 15px rgba( 0, 0, 0, 0.35);
     position: relative;
     overflow: hidden;
-    width: 768px;
+    width: 100%;
     max-width: 100%;
-    min-width: 480px;
+    min-width: 100%;
 
   }
   .conta p{ /* texto del login in*/
@@ -132,9 +132,11 @@ nav a:hover{  /*efecto del nav*/
 @media (width <= 480px){
   nav{
     flex-direction: column;
+    display: flex;
+    text-align: center;
   }
-  .container{
-   
+  .forma-conta {
+    flex-direction: column;
     gap: 20px;
 
   }
