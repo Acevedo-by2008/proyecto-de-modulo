@@ -64,7 +64,7 @@ nav a{ /*texto del nav */
     text-decoration: none;
     size: 19px;
     color: white;
-    text-align: center;
+    text-align: center; 
     
 }
 nav a:hover{ /* efecto del texto en el nav*/
@@ -80,7 +80,7 @@ nav a:hover{ /* efecto del texto en el nav*/
     padding: 20px;
     text-align: center;
     background-color: j;
-    width: 300px;
+    width: 75%;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -111,5 +111,8 @@ nav a:hover{ /* efecto del texto en el nav*/
     flex-direction: column;
   }
 }
- 
+.cards-container img{
+width: 300px;
+height: 55%;
+}
   

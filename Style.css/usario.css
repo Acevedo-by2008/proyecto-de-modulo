@@ -29,9 +29,9 @@ body { /*arreglitos del body*/
     box-shadow: 0 5px 15px rgba( 0, 0, 0, 0.35);
     position: relative;
     overflow: hidden;
-    width: 100%;
-    max-width: 100%;
-    min-width: 100%;
+    width: 75%;
+    max-width: 75%;
+    min-width: 75%;
 
   }
   .conta p{ /* texto del login in*/
@@ -71,7 +71,7 @@ body { /*arreglitos del body*/
     justify-content: center;
     flex-direction: column;
     padding: 0 40px;
-    height: 100%;
+    height: 75%;
 
   }
   .conta input{ /* tescto del login in*/
@@ -81,7 +81,7 @@ body { /*arreglitos del body*/
     padding: 10px 15px;
     font-size: 13px;
     border-radius: 8px;
-    width: 100%;
+    width: 75%;
     outline: none;
   }
   .form-conta{ /*arreglos que vi en internet*/
